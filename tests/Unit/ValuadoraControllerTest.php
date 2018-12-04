@@ -23,7 +23,7 @@ final class ValuadoraControllerTest extends TestCase
 
     public function testSetZone(){
         $instance = new ValuadoraController();
-        $instance->setZone("altabrisa");
+        $instance->setZone("altabriisa");
 
         $this->assertEquals($instance->zone,"altabrisa");
     }
